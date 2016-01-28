@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>NATHAN ISKANDAR | PROGRAMMER</title>
+    <link href="index.css" rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100|Roboto+Condensed|Titillium+Web' rel='stylesheet' type='text/css'>
+    <script src="index.js"></script>
+</head>
+<body onload="selectIndex(-1);" onresize="activateSelected();">
+    <div id="dimmer"></div>
+    <div id="clipping_container">
+        <div class="card" style="z-index:0; transform:translate(0px, 0px);" onclick="select(this)">
+            <a href="#"><div class="card_header" style="background-color:#A3ADB4;">
+                <h1>CONTACT</h1>
+            </div></a>
+            <div class="card_body" style="background-color:#A3ADB4;">
+                <div class="contact_text">
+                    <h1>
+                        Contact<span></span>
+                    </h1>
+                </div>
+                <div class="highlight_bar">
+                    Reach me through:
+                </div>
+                <ul class="contact_doublelist">
+                    <li class="contact_sublist">
+                        <ul>
+                            <li class="contact_item">
+                                <a href="mailto:jaiskandar@yahoo.com">
+                                    <img class="contact_icon" src="img/icon/icon_mail.png" />
+                                    <div class="contact_description">
+                                        <h3>Email</h3>
+                                        <span>jaiskandar@yahoo.com</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="contact_item">
+                                <a href="tel:1-626-278-7872">
+                                    <img class="contact_icon" src="img/icon/icon_phone.png" />
+                                    <div class="contact_description">
+                                        <h3>Mobile</h3>
+                                        <span>+1(626)278-7872</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="contact_item">
+                                <a href="https://www.linkedin.com/in/jonathan-iskandar-68a02ab0">
+                                    <img class="contact_icon" src="img/icon/icon_li.png" />
+                                    <div class="contact_description">
+                                        <h3>LinkedIn</h3>
+                                        <span>Nathan Iskandar</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="contact_sublist">
+                        <ul>
+                            <li class="contact_item">
+                                <a href="https://github.com/Oatmealx">
+                                    <img class="contact_icon" src="img/icon/icon_git.png" />
+                                    <div class="contact_description">
+                                        <h3>GitHub</h3>
+                                        <span>Oatmealx</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="contact_item">
+                                <a href="http://steamcommunity.com/profiles/76561197996153752/">
+                                    <img class="contact_icon" src="img/icon/icon_steam.png" />
+                                    <div class="contact_description">
+                                        <h3>Steam</h3>
+                                        <span>oatmealx</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+
+                            </li>
+                            <li class="contact_item">
+                                <a href="files/resume_jaiskandar.pdf">
+                                    <img class="contact_icon" src="img/icon/icon_res.png" />
+                                    <div class="contact_description">
+                                        <h3>Resume</h3>
+                                        <span></span>
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+                
+
+                
+            </div>
+        </div>
+        <div class="card" style="z-index:1; transform:translate(60px, 0px);" onclick="select(this)">
+            <a href="#"><div class="card_header" style="background-color:#6D767C">
+                <h1>PROJECTS</h1>
+            </div></a>
+            <div class="card_body" style="background-color:#6D767C">
+                <h1 class="project_title">PROJECTS</h1>
+                <!-------------------------------------------------------------------------------------->
+                <ul class="media-list">
+                    <li class="media">
+                        <a class="pull-right" href="projects/blueshift.html">
+                            <img class="media-object" src="img/projects/blueshift.png">
+                        </a>
+                        <div class="media-body body_right" style="text-align:right;">
+                            <h1 class="media-heading">Blueshift</h1>
+                            <p>A cooperative top-down shooter with survival elements about a space pilot after crashing on an unknown planet. Uses Unity's UNET library for networked multiplayer. Made in Unity 5 and Autodesk Maya.</p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <a class="pull-left" href="http://s2015.siggraph.org/attendees/immersive-realities-arvr-contest">
+                            <img class="media-object" src="img/projects/nearfield.png">
+                        </a>
+                        <div class="media-body body_left" style="text-align:left;">
+                            <h1 class="media-heading">Near Field VR</h1>
+                            <p>1st Place Winner, SIGGRAPH 2015 Immersive Realities Contest. Uses a series of lightfield images to render realistic objects in Virtual Reality with minimal geometry. Made with Unity 4, Oculus DK2, and Phasespace Motion Tracking System.</p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <a class="pull-right" href="http://www.elementerravr.com/">
+                            <img class="media-object" src="img/projects/elementerra.png">
+                        </a>
+                        <div class="media-body body_right" style="text-align:right;">
+                            <h1 class="media-heading">Elementerra</h1>
+                            <p>A Virtual Reality sandbox game where players sculpt the world as the nature spirit using a palette and brush to manipulate, destroy, and grow plants and terrain. Made using Untiy 4, Oculus DK2, and Razer Hydras.</p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <a class="pull-left" href="projects/2DLOS.html">
+                            <img class="media-object" src="img/projects/2DLOS.png">
+                        </a>
+                        <div class="media-body body_left" style="text-align:left;">
+                            <h1 class="media-heading">2D Line of Sight</h1>
+                            <p>A script that simulates line of sight from a top-down 2D perspective by generating a mesh to block unseen areas. Works with Unity's built in box and polygon colliders. Made in Unity 5.</p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <a class="pull-right" href="http://globalgamejam.org/2015/games/you-were-born-do">
+                            <img class="media-object" src="img/projects/ggj2015.png">
+                        </a>
+                        <div class="media-body body_right" style="text-align:right; ">
+                            <h1 class="media-heading">You Were Born To Do This</h1>
+                            <p>48-Hour 2015 Global Game Jam entry. A game where two players try to figure out what to do next. Made in Unity 4.</p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <a class="pull-left" href="http://aaron-hong.com/Toppletarian/">
+                            <img class="media-object" src="img/projects/toppletarian.png">
+                        </a>
+                        <div class="media-body body_left" style="text-align:left;">
+                            <h1 class="media-heading">Toppletarian</h1>
+                            <p>24-Hour "Fall" Game Jam entry. A game about swinging from a statue of a dictator, attacking and destroying it to score points. Made in Unity 4.</p>
+                        </div>
+                    </li>
+                </ul>
+                <!----------------------------------------------------------------------------------------------------->
+            </div>
+        </div>
+        <div class="card" style="z-index:1; transform:translate(120px, 0px);" onclick="select(this)">
+            <a href="#"><div class="card_header" style="background-color:#3E4449">
+                <h1>ABOUT</h1>
+            </div></a>
+            <div class="card_body" style="background-color:#3E4449">
+                <div>
+                    <img id="about_image" src="img/head.jpg"/>
+                    <div class="about_text">
+                        <h1>
+                            Hello, I'm <span>Nathan.</span>
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nam justo odio, sollicitudin quis enim eget, fringilla congue elit. 
+                            Maecenas luctus elit non massa fermentum, quis ornare dui consequat. 
+                            Cras lacinia, magna ut porttitor accumsan, libero purus blandit sapien, eget tristique leo nibh sed tellus. 
+                            Pellentesque rhoncus nisl magna. Aliquam dictum aliquam ipsum. 
+                            In sed nulla tincidunt, dapibus leo vel, pellentesque purus. 
+                            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                            Suspendisse tincidunt maximus felis, quis vehicula arcu imperdiet ac. 
+                            Nullam sed ligula facilisis ipsum consectetur congue eget in nisl. 
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam justo odio, sollicitudin quis enim eget, fringilla congue elit.
+                            Maecenas luctus elit non massa fermentum, quis ornare dui consequat.
+                            Cras lacinia, magna ut porttitor accumsan, libero purus blandit sapien, eget tristique leo nibh sed tellus.
+                            Pellentesque rhoncus nisl magna. Aliquam dictum aliquam ipsum.
+                            In sed nulla tincidunt, dapibus leo vel, pellentesque purus.
+                            Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                            Suspendisse tincidunt maximus felis, quis vehicula arcu imperdiet ac.
+                            Nullam sed ligula facilisis ipsum consectetur congue eget in nisl.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="z-index:1; transform:translate(180px, 0px);" onclick="select(this)">
+            <a href="#"><div class="card_header" style="background-color:#222327;">
+                <h1></h1>
+            </div></a>
+            <div class="card_body" style="background-color:#222327;" id="home_body">
+                <div class="home_name">
+                    <h1>NATHAN <br />
+                    <span>ISKANDAR</span></h1>
+                </div>
+                <div class="home_text">
+                    GAME DEVELOPER | PROGRAMMER
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
